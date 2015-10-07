@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SpaceWars</title>
+    <link rel="stylesheet" href="styles/core.css" />
+  </head>
+  <body>
+    <section id="interface">
+      <header id="main-header"></header>
+      <nav id="main-menu"></nav>
+      <footer id="main-footer"></footer>
+    </section>
+  </body>
+</html>

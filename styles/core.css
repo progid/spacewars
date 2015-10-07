@@ -1,0 +1,77 @@
+@font-face {
+	font-family: Chicle;
+	src: url(../fonts/Chicle/Chicle-Regular.ttf);
+}
+@font-face {
+	font-family: Iceland;
+	src: url(../fonts/Iceland/Iceland-Regular.ttf);
+}
+@font-face {
+	font-family: LondrinaShadow;
+	src: url(../fonts/Londrina_Shadow/LondrinaShadow-Regular.ttf);
+}
+@font-face {
+	font-family: PasseroOne;
+	src: url(../fonts/Passero_One/PasseroOne-Regular.ttf);
+}
+@font-face {
+	font-family: PaytoneOne;
+	src: url(../fonts/Paytone_One/PaytoneOne.ttf);
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+#interface {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,5,25,1);
+}
+#main-menu {
+	width: 35%;
+	height: 47%;
+	position: absolute;
+	left: 0;
+	bottom: 5%;
+	right: 0;
+	margin: auto;
+}
+#main-menu li {
+	height: 25%;
+	list-style: none;
+	font: 3.2em PaytoneOne, Tahoma, sans-serif;
+	text-transform: uppercase;
+	color: rgba(255,255,255,.45);
+	transition: color .2s ease-in-out;
+	cursor: pointer;
+	text-align: center;
+	line-height: 1.55em;
+}
+#main-menu li:hover {
+	color: rgba(255,255,255,.75);
+}
+#main-menu li:active {
+	text-shadow: 0px 0px 10px #fff;
+}
+
+#main-header {
+	width: 100%;
+	height: 40%;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+#sign {
+	font: 13em PasseroOne;
+	display: block;
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+}
